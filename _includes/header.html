@@ -1,0 +1,35 @@
+<header itemscope itemtype="http://schema.org/WPHeader" role="banner" data-stellar-background-ratio="0.5" class="sticky-navigation-open">
+  <div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle menu-toggle"
+          data-toggle="collapse" data-target="#menu-primary">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="header-logo-wrap text-header">
+          <h1 itemprop="headline" class="site-title"><a href="{{ site.url }}" title="{{ site.title }}" rel="home">{{ site.title }}</a></h1>
+          <p itemprop="description" class="site-description">{{ site.subtitle }}</p>
+        </div>
+      </div>
+
+      <div itemscope itemtype="http://schema.org/SiteNavigationElement" id="menu-primary" class="navbar-collapse collapse">
+        <div class="site-header-menu">
+          <nav class="main-navigation" role="navigation">
+            <div class="menu-menu-container">
+              <ul class="primary-menu small-text">
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{{ "#content" | relative_url }}">Home</a></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{{ "#services" | relative_url }}">Services</a></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{{ "#story" | relative_url }}">Mission</a></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{{ "#team" | relative_url }}">Team</a></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{{ "#contactinfo" | relative_url }}">Kontakt</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

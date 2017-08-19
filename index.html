@@ -1,14 +1,101 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Cognify</title>
-	</head>
-	<body>
-		<div class="container">
-    	<div class="blurb">
-        <h1>Cognify</h1>
-				<p>Test</p>
-    	</div>
-		</div>
-	</body>
-</html>
+---
+layout: home
+title: Home
+intro:
+  title: Optimale Performance durch intelligente Algorithmen.
+  subtitle: Nutzen Sie die Power von Data Science um Ihre Wertschöpfung zu steigern.
+  button-text: Gib mir mehr...
+---
+<section class="services" id="services" role="region" aria-label="Services">
+  <div class="section-overlay-layer">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="dark-text">Unsere Services</h2>
+        <div class="colored-line"></div>
+        <div class="sub-heading">
+          Als Data Science Dienstleister helfen wir überall wo Daten und Entscheidungen im Spiel sind.</div>
+      </div>
+      <div id="our_services_wrap" class="services-wrap">
+        <div class="service-box">
+          <div class="single-service border-bottom-hover">
+            <div class="service-icon colored-text">
+              <i class="fa fa-cogs"></i>
+            </div>
+            <h3 class="colored-text">Intelligente Algorithmen</h3>
+            <p>Machine Learning und statistische Verfahren bieten eine Vielzahl an Möglichkeiten um Ihre digitalen Prozesse
+              und Entscheidungsabläufe zu optimieren. Wir sind Spezialisten in der Entwicklung individueller Algorithmen,
+              um Ihre Wertschöpfung aufs nächste Level zu heben.</p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="single-service border-bottom-hover">
+            <div class="service-icon colored-text">
+              <i class="fa fa-bar-chart-o"></i>
+            </div>
+            <h3 class="colored-text">Komplexe Datenanalysen</h3>
+            <p>Um aus Daten wertvolle Information zu generieren bedarf es mehr als ein paar Grafiken. Erst durch intelligente
+              Verflechtung und Mustererkennung können Sie die Zusammenhänge erkennen und damit faktenbasierte Entscheidungen
+              treffen.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="single-service border-bottom-hover">
+            <div class="service-icon colored-text">
+              <i class="fa fa-globe"></i>
+            </div>
+            <h3 class="colored-text">Technologieberatung</h3>
+            <p>Im Big Data Umfeld werden täglich neue Werkzeuge entwickelt um die steigendenen Datenmengen effizient zu bewerkstelligen.
+              Damit Sie für ihre strategischen Ziele und daraus abgeleiteten Anwendungsfälle die richtige Toolbox zur Hand
+              haben, beraten wir sie gerne.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="brief text-left brief-design-one brief-left" id="story" role="region" aria-label="About">
+  <div class="section-overlay-layer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 content-section brief-content-one">
+          <h2 class="text-left dark-text">Unsere Misssion</h2>
+          <div class="colored-line-left"></div>
+          <div class="brief-content-text">
+            Als Data Science Dienstleister ist es unsere Mission die Wertschöpfung von Unternehmen durch den Einsatz von intelligenten
+            Machine Learning Algorithmen und analytischen Verfahren zur vollen Entfaltung zu bringen.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="team" id="team" role="region" aria-label="Team" style="background-image:url({{ "/assets/images/team.jpg" | relative_url }});">
+  <div class="section-overlay-layer">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="dark-text">Unser Team</h2>
+        <div class="colored-line"></div>
+        <div class="sub-heading">
+          Der Kern von Cognify besteht aktuell aus zwei Daten- und Change-Management Freaks und wird durch ein flexibles Netzwerk an
+          Spezialisten komplettiert.</div>
+      </div>
+      <div class="row team-member-wrap">
+        {% for member in site.data.team %}
+        <div class="col-md-3 team-member-box">
+          <div class="team-member border-bottom-hover">
+            <div class="member-pic">
+              <img src="{{ " /assets/images/team/ " | relative_url }}{{ member.name | slugify }}.jpg" alt="{{ member.name }}">
+            </div>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <h5 class="colored-text">{{ member.name }}</h5>
+                <div class="small-text">{{ member.jobtitle }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

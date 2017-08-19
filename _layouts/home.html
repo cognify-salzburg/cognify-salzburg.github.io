@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="header header-style-one">
+  <div class="overlay-layer-wrap">
+    <div class="container overlay-layer">
+
+      <div class="only-logo">
+        <div class="navbar">
+          <div class="navbar-header"><img src="{{ "/assets/images/logo-2.png" | relative_url }}"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 intro-section-text-wrap">
+          <div class="intro-section">
+            <h1 class="intro white-text">{{ page.intro.title | default: "Title" | escape }}</h1>
+            <h5 class="white-text">{{ page.intro.subtitle | default: "Subtitle" | escape }}</h5>
+            <a class="btn btn-primary standard-button inpage-scroll" href="/#services">{{ page.intro.button-text | default: "Click" | escape }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ content }}

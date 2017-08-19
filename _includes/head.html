@@ -1,0 +1,23 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{{" - "}}{{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <link rel="stylesheet" id="llorix-one-lite-font-css" href="https://fonts.googleapis.com/css?family=Cabin%3A400%2C600%7COpen+Sans%3A400%2C300%2C600&#038;ver=4.8.1" type="text/css" media="all" />
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <script type="text/javascript" src="{{ "/assets/js/jquery.js?ver=1.12.4" | relative_url }}"></script>
+  <script type="text/javascript" src="{{ "/assets/js/jquery-migrate.min.js?ver=1.4.1" | relative_url }}"></script>
+
+  {% comment %} SEO {% endcomment %}
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | replace:'.html','' | absolute_url }}">
+  {% if site.google.site-verification %}
+  <meta name="google-site-verification" content="{{ site.google.site-verification }}" />
+  {% endif %}
+
+  {% if jekyll.environment == 'production' and site.google-analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+</head>

@@ -1,1 +1,0 @@
-# cognify-salzburg.github.io

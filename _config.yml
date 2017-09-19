@@ -18,19 +18,19 @@ subtitle: The Data Science Company
 lang: de-AT
 company:
   email: office@cognify.ai
-  location: Judengasse 12, Salzburg
+  location: Judengasse 12, Top 3, Salzburg
   location-link: https://maps.google.com/maps?ll=47.799494,13.046457&amp;z=16&amp;t=m&amp;q=Judengasse%2012%205020%20Salzburg
   phone: tbd
   imprint:
     name: Cognify KG (Firma in Gründung)
     address:
-      street: Judengasse 12
+      street: Judengasse 12, Top 3
       zip: 5020
       city: Salzburg
       country: Österreich
-    firmensitz: Firma in Gründung # Sitz Salzburg
-    firmennummer: Firma in Gründung
-    gerichtsstand: Firma in Gründung # Landesgericht Salzburg
+    firmensitz: Sitz Salzburg
+    firmennummer: FN 477675p
+    gerichtsstand: Landesgericht Salzburg
     dvr: Firma in Gründung
     uid: Firma in Gründung
 description: >
@@ -41,7 +41,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 google:
-  site-verification: SFhWAIUtMEyCUJFaFfjKio0cQprF-K0OE-lnH_L8r88
+  site-verification: s8Zm1jIAjIeQsF6vB84Vcysr_tsBQFnTMbkBnByBWrU
   maps:
     embed-link: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2680.0690156938435!2d13.044267915841973!3d47.799497882625396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4776906225dc4d13%3A0x4abedb1676fdbc27!2sJudengasse+12%2C+5020+Salzburg!5e0!3m2!1sde!2sat!4v1502520709512
 

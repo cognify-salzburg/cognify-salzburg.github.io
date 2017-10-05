@@ -22,7 +22,7 @@ company:
   location-link: https://maps.google.com/maps?ll=47.799494,13.046457&amp;z=16&amp;t=m&amp;q=Judengasse%2012%205020%20Salzburg
   phone: tbd
   imprint:
-    name: Cognify KG (Firma in Gründung)
+    name: cognify KG
     address:
       street: Judengasse 12, Top 3
       zip: 5020
@@ -32,7 +32,7 @@ company:
     firmennummer: FN 477675p
     gerichtsstand: Landesgericht Salzburg
     dvr: Firma in Gründung
-    uid: Firma in Gründung
+    uid: ATU72583126
 description: >
   Unsere Mission: Ihre Wertschöpfung durch selbst-lernende,
   daten-getriebene Machine Learning Algorithmen zur vollen

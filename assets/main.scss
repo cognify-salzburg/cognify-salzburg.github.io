@@ -1,9 +1,10 @@
 ---
 ---
-@import  "font-awesome.min";
+@import "font-awesome.min";
 @import "bootstrap.min";
 @import "llorix-one-companion";
 @import "llorix-one-lite";
+@import "cognify";
 
 .header {
   background-image: url("{{ "/assets/images/titel.jpg" | relative_url }}");

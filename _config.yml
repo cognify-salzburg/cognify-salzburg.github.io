@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cognify
+title: cognify
 subtitle: The Data Science Company
 lang: de-AT
 company:
   email: office@cognify.ai
   location: Judengasse 12, Top 3, Salzburg
   location-link: https://maps.google.com/maps?ll=47.799494,13.046457&amp;z=16&amp;t=m&amp;q=Judengasse%2012%205020%20Salzburg
-  phone: tbd
+  phone: +43 670 6058033
   imprint:
     name: cognify KG
     address:
@@ -51,13 +51,8 @@ sass:
   style: compressed
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md

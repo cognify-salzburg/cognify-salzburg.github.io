@@ -1,24 +1,122 @@
+$white: #fff;
+$black: #000;
+$logo-blue: #0d3c55;
+
 .single-service h3 {
-  color: #0d3c55;
+  color: $logo-blue;
   margin-bottom: 15px;
   padding-top: 5px;
 }
 
+.sticky-navigation {
+  min-height: 90px;
+
+  .navbar-toggle {
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+
+  @media (min-width: 768px) {
+    .main-navigation li a {
+      margin-top: 36px;
+      margin-bottom: 36px;
+    }
+  }
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: $logo-blue;
+}
+
+.header-logo-wrap {
+  padding: 10px;
+
+  .logo {
+    height: 70px;
+    width: auto;
+  }
+}
+
+.logo {
+  width: 100px;
+}
+
 .dark-text {
-  color: #0d3c55;
+  color: $logo-blue;
+}
+
+
+.standard-button-white {
+	border-color: $white;
+	color: $logo-blue;
+	background: rgba($white, 0.4);
+}
+
+.standard-button-white:hover {
+	border-color: $white;
+	color: $logo-blue;
+	background: $white;
+}
+
+.standard-button-white:focus {
+	color: $logo-blue;
+}
+
+.standard-button-white:active {
+	background: $white !important;
+}
+
+.colored-line-left,
+.colored-line-right,
+.colored-line {
+	background: $logo-blue;
+}
+
+.colored-text {
+	color: $logo-blue;
+}
+
+.sticky-navigation .main-navigation li a:hover,
+.sticky-navigation .login-register li.login a:hover,
+.sticky-navigation .main-navigation li.current > a,
+.sticky-navigation .main-navigation li:hover > a {
+	color: $logo-blue;
+}
+
+.footer a:hover {
+  color: $white;
 }
 
 a {
-  color: #0d3c55;
+  color: $logo-blue;
 }
 
 a:hover {
-  color: #0d3c55;
+  color: $logo-blue;
+}
+
+.contact-info .contact-links a:hover {
+	color: $logo-blue;
 }
 
 .team {
+  .colored-line-left,
+  .colored-line-right,
+  .colored-line {
+    background: $white;
+  }
+
   .member-details-inner {
     padding-top: 15px;
+    color: $logo-blue;
+
+    & h5 {
+      color: $logo-blue;
+    }
+  }
+
+  .team-member:hover .member-details {
+    background: rgba($white, 0.7);
   }
 
   .small-text {
@@ -27,7 +125,7 @@ a:hover {
       line-height: 20px;
 
       a {
-        color: #ffffff;
+        color: $logo-blue;
       }
     }
   }

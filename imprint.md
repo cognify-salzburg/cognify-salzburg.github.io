@@ -14,7 +14,6 @@ E-Mail: [{{ site.company.email }}](mailto:{{ site.company.email }})
 
 {{ site.company.imprint.firmensitz }}<br>
 {{ site.company.imprint.firmennummer }} / {{ site.company.imprint.gerichtsstand }}<br>
-DVR {{ site.company.imprint.dvr }}<br>
 UID {{ site.company.imprint.uid }}
 
 Diese Website ist eine Webseite zur Präsentation der Firma {{ site.title }}. Diese enthält auch Links zu Websites von Dritten, deren Inhalte von {{ site.title }} nicht kontrolliert werden können. Mit Urteil vom 19.12.2000 (4 Ob 274/00y – Haftung für Links auf Websites), hat der österreichische Oberste Gerichtshof ausgesprochen, dass sich ein Linksetzer den Inhalt einer fremden Website als eigenen Inhalt zurechnen lassen muss und für diesen gegebenenfalls zu haften hat, sofern er sich deren Inhalt zu eigen macht.<br><br>

@@ -1,31 +1,72 @@
 $white: #fff;
 $black: #000;
-$logo-blue: #0d3c55;
+$logo-dark-blue: #232e40;
+$logo-light-blue: #00abc4;
 
 .single-service h3 {
-  color: $logo-blue;
+	color: $logo-dark-blue;
   margin-bottom: 15px;
   padding-top: 5px;
 }
 
 .sticky-navigation {
   min-height: 90px;
+  background-color: $logo-dark-blue;
 
-  .navbar-toggle {
-    padding-top: 23px;
-    padding-bottom: 23px;
+  @media (max-width: 580px) {
+    min-height: 70px;
+  }
+  
+  .main-navigation {
+    .primary-menu {
+      border-bottom: none;
+    }
+
+    a {
+      color: $white;
+    }
+
+    li {
+      transition: all ease 0.25s;
+      
+      &:hover {
+        background-color: rgba($logo-light-blue,0.2);
+      }
+    }
+
+    li a:hover,
+    li.current > a,
+    li:hover > a {
+      color: $logo-light-blue;
+    }
+    
+    @media (min-width: 768px) {
+      li a {
+        margin: 0;
+        padding: 36px 18px;
+      }
+    }
   }
 
-  @media (min-width: 768px) {
-    .main-navigation li a {
-      margin-top: 36px;
-      margin-bottom: 36px;
+  .navbar-toggle {
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    @media (max-width: 580px) {
+      padding-top: 17px;
+      padding-bottom: 17px;
     }
   }
 }
 
+@media (max-width: 580px) {
+  .brief .section-overlay-layer {
+    padding: 40px 0;
+  }
+}
+
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: $logo-blue;
+  background-color: $logo-light-blue;
 }
 
 .header-logo-wrap {
@@ -34,6 +75,10 @@ $logo-blue: #0d3c55;
   .logo {
     height: 70px;
     width: auto;
+
+    @media (max-width: 580px) {
+      height: 50px;
+    }
   }
 }
 
@@ -42,24 +87,24 @@ $logo-blue: #0d3c55;
 }
 
 .dark-text {
-  color: $logo-blue;
+  color: $logo-dark-blue;
 }
 
 
 .standard-button-white {
 	border-color: $white;
-	color: $logo-blue;
+	color: $logo-light-blue;
 	background: rgba($white, 0.4);
 }
 
 .standard-button-white:hover {
 	border-color: $white;
-	color: $logo-blue;
+	color: $logo-light-blue;
 	background: $white;
 }
 
 .standard-button-white:focus {
-	color: $logo-blue;
+	color: $logo-light-blue;
 }
 
 .standard-button-white:active {
@@ -69,18 +114,20 @@ $logo-blue: #0d3c55;
 .colored-line-left,
 .colored-line-right,
 .colored-line {
-	background: $logo-blue;
+	background-color: $logo-light-blue;
 }
 
 .colored-text {
-	color: $logo-blue;
+	color: $logo-dark-blue;
 }
 
-.sticky-navigation .main-navigation li a:hover,
-.sticky-navigation .login-register li.login a:hover,
-.sticky-navigation .main-navigation li.current > a,
-.sticky-navigation .main-navigation li:hover > a {
-	color: $logo-blue;
+.service-icon.colored-text {
+	color: $logo-light-blue;
+}
+
+.footer,
+.footer a {
+  background-color: $logo-dark-blue;
 }
 
 .footer a:hover {
@@ -88,15 +135,15 @@ $logo-blue: #0d3c55;
 }
 
 a {
-  color: $logo-blue;
+  color: $logo-light-blue;
 }
 
 a:hover {
-  color: $logo-blue;
+  color: $logo-light-blue;
 }
 
 .contact-info .contact-links a:hover {
-	color: $logo-blue;
+	color: $logo-light-blue;
 }
 
 .team {
@@ -108,10 +155,10 @@ a:hover {
 
   .member-details-inner {
     padding-top: 15px;
-    color: $logo-blue;
+    color: $logo-dark-blue;
 
     & h5 {
-      color: $logo-blue;
+      color: $logo-dark-blue;
     }
   }
 
@@ -125,7 +172,7 @@ a:hover {
       line-height: 20px;
 
       a {
-        color: $logo-blue;
+        color: $logo-dark-blue;
       }
     }
   }

@@ -4,6 +4,7 @@ title: Impressum
 permalink: /imprint/
 ---
 
+{{ site.company.imprint.ceo }}<br>
 {{ site.company.imprint.name }}<br>
 {{ site.company.imprint.address.street }}<br>
 {{ site.company.imprint.address.zip }} {{ site.company.imprint.address.city }}<br>

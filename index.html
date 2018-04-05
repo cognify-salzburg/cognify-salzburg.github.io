@@ -86,14 +86,16 @@ intro:
         <div class="col-md-3 team-member-box">
           <div class="team-member border-bottom-hover">
             <div class="member-pic">
-              <img src="{{ "/assets/images/team/" | relative_url }}{{ member.name | slugify }}.jpg" alt="{{ member.name }}">
+              <img src="{{ "/assets/images/team/" | relative_url }}{{ member.name | slugify }}.png" alt="{{ member.name }}">
             </div>
             <div class="member-details">
               <div class="member-details-inner">
                 <h5 class="colored-text">{{ member.name }}</h5>
                 <div class="small-text">{{ member.jobtitle }}</div>
                 <div class="small-text email"><a href="mailto:{{member.email}}">✉ {{ member.email }}</a></div>
+                {% if member.phone %}
                 <div class="small-text phone"><a href="tel:{{member.phone}}">✆ {{ member.phone }}</a></div>
+                {% endif %}
               </div>
             </div>
           </div>

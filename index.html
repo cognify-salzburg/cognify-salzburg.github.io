@@ -64,8 +64,26 @@ intro:
           <h2 class="text-left dark-text">Unsere Mission</h2>
           <div class="colored-line-left"></div>
           <div class="brief-content-text">
-            Als Data Science Dienstleister ist es unsere Mission die Wertschöpfung von Unternehmen durch den Einsatz von intelligenten
-            Machine Learning Algorithmen und analytischen Verfahren zur vollen Entfaltung zu bringen.</div>
+            Als Data Science Dienstleister ist es unsere Mission die Wertschöpfung von Unternehmen durch den Einsatz von
+            intelligenten Machine Learning Algorithmen und analytischen Verfahren zur vollen Entfaltung zu bringen. <br>
+            <br>
+            In Zusammenarbeit mit unseren Partnern entwickeln wir maßgeschneiderte Data Science Lösungen, welche unsere
+            Kunden bei der Optimierung ihrer digitalen Geschäftsprozesse unterstützen. Wir setzen dabei auf die Integration
+            und Nutzung vorhandener Daten in Kombination mit Artificial Intelligence bzw. Machine Learning Algorithmen,
+            sowie analytischen Verfahren, um relevante Kenngrößen zu steigern. Im Zuge dessen ist die Verarbeitung von
+            fremden Daten für uns ein Privileg und wird auch als solches behandelt. Schrittweise können wir so erreichen,
+            dass Prozesse automatisiert, intelligenter gesteuert und menschliche Intervention reduziert werden. <br>
+            <br>
+             Durch nachhaltige effiziente Lösungen geben wir das in uns gesteckte Vertrauen wieder zurück.
+          </div>
+          <div class="brief-content-text">
+
+          </div>
+          <div class="grid">
+            <a href="https://www.dasweltauto.at/"><img src="/assets/images/customers/VW_DasWeltAuto_4C_S.png"></a>
+            <a href="https://www.mobidrome.com/"><img src="/assets/images/customers/Mobidrome-Logo-Color.jpg"></a>
+            <a href="https://www.salzburg-ag.at/"><img src="/assets/images/customers/SalzburgAG_Logo_ohneClaim_RGB_150dpi_RZ.jpg"></a>
+          </div>
         </div>
       </div>
     </div>
@@ -78,12 +96,12 @@ intro:
         <h2 class="dark-text">Unser Team</h2>
         <div class="colored-line"></div>
         <div class="sub-heading">
-          Der Kern von Cognify besteht aktuell aus zwei Daten und Machine Learning Freaks und wird durch ein flexibles Netzwerk an
+          Der Kern von cognify besteht aktuell aus fünf Daten und Machine Learning Freaks und wird durch ein flexibles Netzwerk an
           Spezialisten komplettiert.</div>
       </div>
       <div class="row team-member-wrap">
         {% for member in site.data.team %}
-        <div class="col-md-3 team-member-box">
+        <div class="col-md-4 team-member-box">
           <div class="team-member border-bottom-hover">
             <div class="member-pic">
               <img src="{{ "/assets/images/team/" | relative_url }}{{ member.name | slugify }}.png" alt="{{ member.name }}">
@@ -105,3 +123,22 @@ intro:
     </div>
   </div>
 </section>
+<!-- <section class="brief text-left brief-design-one brief-left" id="customer" role="region" aria-label="About">
+  <div class="section-overlay-layer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 content-section brief-content-one">
+          <h2 class="text-left dark-text">Unsere Kunden</h2>
+          <div class="colored-line-left"></div>
+            <div class="brief-content-text">
+            </div>
+            <div class="grid">
+              <a href="https://www.dasweltauto.at/"><img src="/assets/images/customers/VW_DasWeltAuto_4C_S.png"></a>
+              <a href="https://www.mobidrome.com/"><img src="/assets/images/customers/Mobidrome-Logo-Color.jpg"></a>
+              <a href="https://www.salzburg-ag.at/"><img src="/assets/images/customers/SalzburgAG_Logo_ohneClaim_RGB_150dpi_RZ.jpg"></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->

@@ -8,13 +8,14 @@
   email: wl@cognify.ai
   phone: +43 670 6060492
 
-- name: Veronika Haaf
-  jobtitle: Data Scientist
-  email: vh@cognify.ai
-
 - name: Martin Simmerstatter
   jobtitle: kaufm. Geschäftsführer
   email: sim@cognify.ai
+  phone: +43 670 6004040
+
+- name: Veronika Haaf
+  jobtitle: Data Scientist
+  email: vh@cognify.ai
 
 - name: Marvin Schubert
   jobtitle: Junior Data Scientist

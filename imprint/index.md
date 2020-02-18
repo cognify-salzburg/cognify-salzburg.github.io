@@ -16,7 +16,7 @@ Web: www.cognify.ai<br>
 E-Mail: [{{ site.company.email }}](mailto:{{ site.company.email }})<br>
 Telefon: [{{ site.company.phone }}](tel:{{ site.company.phone }})<br><br>
 Firmenbuchnummer: {{ site.company.imprint.firmennummer }}<br>
-{{ site.company.imprint.gerichtsstand }}<br>
+
 UID {{ site.company.imprint.uid }}<br>
 Unternehmensgegenstand: Data Sciene Agentur, Softwareentwicklung<br><br>
 Aufsichtsbehörde: Magistrat Salzburg<br>

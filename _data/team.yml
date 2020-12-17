@@ -13,14 +13,23 @@
   email: sim@cognify.ai
   phone: +43 670 6004040
 
-- name: Veronika Haaf
-  jobtitle: Data Scientist
-  email: vh@cognify.ai
-
-- name: Marvin Schubert
-  jobtitle: Junior Data Scientist
-  email: ms@cognify.ai
-
 - name: Christina Kastner
   jobtitle: Data Scientist
   email: ck@cognify.ai
+
+- name: Kerstin Reichinger
+  jobtitle: Web Developer
+  email: kr@cognify.ai
+
+- name: Daniel Hofstaetter
+  jobtitle: Team Leader
+  email: dh@cognify.ai
+
+- name: Michael Kastner
+  jobtitle: Data Scientist
+  email: mk@cognify.ai
+
+- name: Manuel Moosleitner
+  jobtitle: Sales & Marketing
+  email: mm@cognify.ai
+

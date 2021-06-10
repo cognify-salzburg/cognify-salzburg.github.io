@@ -18,8 +18,8 @@ subtitle: The Data Science Company
 lang: de-AT
 company:
   email: office@cognify.ai
-  location: Judengasse 12, Top 3, Salzburg
-  location-link: https://maps.google.com/maps?ll=47.799494,13.046457&amp;z=16&amp;t=m&amp;q=Judengasse%2012%205020%20Salzburg
+  location: Hubert-Sattler-Gasse 1/Rainerstraße 2, Top 42, Salzburg
+  location-link: https://goo.gl/maps/diRbfDKzmaM1wF8G7
   phone: +43 670 6058033
   imprint:
     ceo: "Geschäftsführer: Dr. Norbert Walchhofer, Mag. Martin Simmerstatter"
@@ -43,7 +43,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google:
   site-verification: q_gqTtu5Y0hW89Edt9yQAoVefhlrAcluCtcfGSNdiyM
   maps:
-    embed-link: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2680.0690156938435!2d13.044267915841973!3d47.799497882625396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4776906225dc4d13%3A0x4abedb1676fdbc27!2sJudengasse+12%2C+5020+Salzburg!5e0!3m2!1sde!2sat!4v1502520709512
+    embed-link: https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sHubert-Sattler-Gasse+1!6i13
 
 # Build settings
 markdown: kramdown

@@ -37,10 +37,6 @@
   jobtitle: Data Engineer
   email: sk@cognify.ai
 
-- name: Theresa Binder
-  jobtitle: Data Engineer & Projektmanagerin
-  email: tb@cognify.ai
-
 - name: Martin Wieser
   jobtitle: Data Engineer
   email: mw@cognify.ai
@@ -48,3 +44,27 @@
 - name: Anja Schachinger
   jobtitle: Juristin
   email: as@cognify.ai
+
+- name: Bernhard Friedl
+  jobtitle: Projektmanagement
+  email: bf@cognify.ai
+
+- name: Peter Walchhofer
+  jobtitle: FE-Entwickler (Praktikum)
+  email: pw@cognify.ai
+
+- name: Abhijit Chitnis
+  jobtitle: BE-Entwickler
+  email: ac@cognify.ai
+
+- name: Daniela Achorner
+  jobtitle: FE-Entwicklerin (Praktikum)
+  email: da@cognify.ai
+
+- name: Thomas Ebner
+  jobtitle: Full-Stack-Entwickler
+  email: te@cognify.ai
+
+- name: Yvonne Schrattenecker
+  jobtitle: Organisation + Sales & Markting
+  email: ys@cognify.ai

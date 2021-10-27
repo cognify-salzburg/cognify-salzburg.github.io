@@ -3,10 +3,6 @@ To test locally, execute
 ```shell
 bundle exec jekyll serve
 ```
-with live reload
-```shell
-bundle exec jekyll serve --livereload
-```
 
 Troubleshoot:
 Da am Production-Server eine alte Jekyll version läuft, ist das lokale Deployment etwas mühsam.
@@ -24,5 +20,9 @@ Da am Production-Server eine alte Jekyll version läuft, ist das lokale Deployme
         ```
         excerpt_separator: ""
         ```
-
+- Wenn ffi Probleme mach:
+```
+sudo apt install libffi-dev
+gem inst ffi
+```
 

@@ -26,12 +26,8 @@
   email: mk@cognify.ai
 
 - name: Manuel Mosleitner
-  jobtitle: Sales & Marketing Assistant
+  jobtitle: Sales & Marketing
   email: mm@cognify.ai
-
-- name: Anna Braunbart
-  jobtitle: Sales & Marketing Assistant
-  email: ab@cognify.ai
 
 - name: Stefan Kemptner
   jobtitle: Data Engineer
@@ -50,7 +46,7 @@
   email: bf@cognify.ai
 
 - name: Peter Walchhofer
-  jobtitle: FE-Entwickler (Praktikum)
+  jobtitle: FE-Entwickler
   email: pw@cognify.ai
 
 - name: Abhijit Chitnis

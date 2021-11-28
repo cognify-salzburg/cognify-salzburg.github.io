@@ -67,8 +67,12 @@
 
 - name: Jessica Geisler
   jobtitle: Data Engineer
-  email: jg@cognify.ai
+  email: jg@cognify.ais
 
 - name: Aurelius Beier
   jobtitle: BE-Entwickler
   email: abe@cognify.ai
+
+- name: Tamir Shalit
+  jobtitle: BE-Entwickler
+  email: ts@cognify.ai

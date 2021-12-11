@@ -124,8 +124,10 @@ intro:
             <div class="member-details">
               <div class="member-details-inner">
                 <h5 class="colored-text">{{ member.name }}</h5>
-                <div class="small-text">{{ member.jobtitle }}</div>
+                <div class="small-text jobtitle"><p>{{ member.jobtitle }}</p></div>
+                {% if member.email %}
                 <div class="small-text email"><a href="mailto:{{member.email}}">✉ {{ member.email }}</a></div>
+                {% endif %}
                 {% if member.phone %}
                 <div class="small-text phone"><a href="tel:{{member.phone}}">✆ {{ member.phone }}</a></div>
                 {% endif %}

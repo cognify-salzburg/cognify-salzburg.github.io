@@ -46,7 +46,7 @@
   email: pw@cognify.ai
 
 - name: Daniela Achorner
-  jobtitle: FE-Entwicklerin (Praktikum)
+  jobtitle: FE-Entwicklerin
   email: da@cognify.ai
 
 - name: Thomas Ebner
@@ -72,3 +72,7 @@
 - name: Jonathan Heneis
   jobtitle: FE-Entwickler
   email: jh@cognify.ai
+
+- name: Bernhard Stader
+  jobtitle: Full-Stack-Entwickler
+  email: bs@cognify.ai

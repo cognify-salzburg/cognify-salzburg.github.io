@@ -13,7 +13,7 @@
   email: sim@cognify.ai
   phone: +43 670 6004040
 
-- name: Christina Kastner
+- name: Christina Lochner
   jobtitle: Data Scientist
   email: ck@cognify.ai
 
@@ -36,10 +36,6 @@
 - name: Anja Schachinger
   jobtitle: Juristin
   email: as@cognify.ai
-
-- name: Bernhard Friedl
-  jobtitle: Projektmanagement
-  email: bf@cognify.ai
 
 - name: Peter Walchhofer
   jobtitle: FE-Entwickler
@@ -80,3 +76,7 @@
 - name: Daniel Dürnberger
   jobtitle: BE-Entwickler
   email: dd@cognify.ai
+
+- name: Fabian Zapf
+  jobtitle: Product Owner
+  email: fz@cognify.ai

@@ -25,8 +25,6 @@ Anwendbares Berufsrecht: Gewerbeordnung 1994 (GewO; einsehbar unter: www.ris.bka
 Mitglied der Wirtschaftskammer Salzburg<br>
 Medieninhaber: cognify GmbH (Anschrift: siehe oben)<br>
 Verbraucher haben die Möglichkeit, Beschwerden an die Online-Streitbeilegungsplattform der EU zu richten: http://ec.europa.eu/odr.<br>
-Das Impressum wurde erstellt durch Brandauer Rechtsanwälte – Ihr Rechtsanwalt in Salzburg (http://www.salzburg-law.at)
-
  
 
 

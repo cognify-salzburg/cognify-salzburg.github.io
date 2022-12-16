@@ -45,10 +45,6 @@
   jobtitle: FE-Entwicklerin
   email: da@cognify.ai
 
-- name: Thomas Ebner
-  jobtitle: Full-Stack-Entwickler
-  email: te@cognify.ai
-
 - name: Yvonne Jelinek
   jobtitle: Organisation + Sales & Markting
   email: ys@cognify.ai
@@ -92,3 +88,15 @@
 - name: Vanessa Winklbauer
   jobtitle: Data Scientist
   email: vw@cognify.ai
+
+- name: Felix Baumann
+  jobtitle: BE-Entwickler
+  email: fb@cognify.ai
+
+- name: Florian Egger-Russe
+  jobtitle: Projektmanagement
+  email: fe@cognify.ai
+
+- name: Jan Sand
+  jobtitle: Projektmanagement
+  email: js@cognify.ai

@@ -82,11 +82,11 @@
   email: tb@cognify.ai
 
 - name: Vanessa Winklbauer
-  jobtitle: Data Scientist
+  jobtitle: Junior Data Scientist
   email: vw@cognify.ai
 
 - name: Felix Baumann
-  jobtitle: BE-Entwickler
+  jobtitle: Junior BE-Entwickler
   email: fb@cognify.ai
 
 - name: Florian Egger-Russe
@@ -96,3 +96,11 @@
 - name: Jan Sand
   jobtitle: Projektmanagement
   email: js@cognify.ai
+
+# - name: Alexander Miller
+#   jobtitle: Senior Full-Stack-Entwickler
+#   email: am@cognify.ai
+
+# - name: Arnold Keller
+#   jobtitle: Senior Full-Stack-Entwickler
+#   email: ak@cognify.ai

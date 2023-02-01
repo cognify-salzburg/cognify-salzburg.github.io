@@ -57,10 +57,6 @@
   jobtitle: BE-Entwickler
   email: abe@cognify.ai
 
-- name: Tamir Shalit
-  jobtitle: Freelancer
-  email: ts@cognify.ai
-
 - name: Jonathan Heneis
   jobtitle: FE-Entwickler
   email: jh@cognify.ai
@@ -97,10 +93,10 @@
   jobtitle: Projektmanagement
   email: js@cognify.ai
 
-# - name: Alexander Miller
-#   jobtitle: Senior Full-Stack-Entwickler
-#   email: am@cognify.ai
+- name: Alexander Miller
+  jobtitle: Sr. Full-Stack-Entwickler
+  email: am@cognify.ai
 
-# - name: Arnold Keller
-#   jobtitle: Senior Full-Stack-Entwickler
-#   email: ak@cognify.ai
+- name: Arnold Keller
+  jobtitle: Sr. Full-Stack-Entwickler
+  email: ak@cognify.ai
